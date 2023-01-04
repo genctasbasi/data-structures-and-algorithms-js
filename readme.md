@@ -2,4 +2,4 @@
 
 ## easy
 
-    ### two-numbers.js
+### twoSum.js

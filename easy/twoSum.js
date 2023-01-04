@@ -19,7 +19,7 @@ console.log(twoSum1([1, 2, 3, 0, -5, 20], 15));
 
 /**
 	O(n) is possible with (one-pass) hashtable
-    Space is also O(n)
+  Space complexity is also O(n)
 */
 var twoSum2 = (nums, target) => {
   var map = new Map();

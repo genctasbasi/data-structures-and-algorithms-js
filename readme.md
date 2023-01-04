@@ -2,4 +2,4 @@
 
 ## easy
 
-### twoSum.js
+### 001. twoSum.js: O(n2), O(nlogn) and O(n) solutions

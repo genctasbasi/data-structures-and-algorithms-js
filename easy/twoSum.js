@@ -1,5 +1,5 @@
 // Two Sum
-// https://leetcode.com/problems/two-sum/
+// https://leetcode.com/problems/two-sum
 
 /**
  * O(n2) solution - brute force

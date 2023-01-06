@@ -17,3 +17,7 @@
 4. [validParentheses.js](https://leetcode.com/problems/valid-parentheses)
 
 - String, Stack
+
+5. [symmetricTree.js](https://leetcode.com/problems/symmetric-tree)
+
+- Tree, BFS, BuildTree, Binary tree

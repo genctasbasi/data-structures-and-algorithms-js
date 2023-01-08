@@ -21,3 +21,9 @@
 5. [symmetricTree.js](https://leetcode.com/problems/symmetric-tree)
 
 - Tree, BFS, BuildTree, Binary tree
+
+### medium
+
+1. [binaryTreeLevelOrder.js](https://leetcode.com/problems/binary-tree-level-order-traversal)
+
+- Tree, BFS, BuildTree, Binary tree

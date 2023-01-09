@@ -11,19 +11,30 @@ var buildTree = (arr) => {
   if (arr.length == 0) return null;
 
   var root = new TreeNode();
-  var currentNode = root;
-  for (var i = 0; i < arr.length; i++) {
-    var nodeVal = arr[i];
+  var nodeQueue = [];
+  nodeQueue.push(root);
 
-    if (currentNode.val == undefined) {
-      currentNode.val = nodeVal;
-    } else if (currentNode.left == undefined) {
-      var leftNode = new TreeNode(nodeVal);
-      currentNode.left = leftNode;
-    } else if (currentNode.right == undefined) {
-      var rightNode = new TreeNode(nodeVal);
-      currentNode.right = rightNode;
-      currentNode = currentNode.left;
+  for (var i = 0; i < arr.length; i++) {
+    var val = arr[i];
+    var node = nodeQueue.shift();
+    if (node == null) continue;
+    node.val = val;
+
+    var nextLeftIndex = 2 * i + 1;
+    var nextRightIndex = 2 * i + 2;
+
+    if (arr[nextLeftIndex] == null) {
+      nodeQueue.push(null);
+    } else {
+      node.left = new TreeNode();
+      nodeQueue.push(node.left);
+    }
+
+    if (arr[nextRightIndex] == null) {
+      nodeQueue.push(null);
+    } else {
+      node.right = new TreeNode();
+      nodeQueue.push(node.right);
     }
   }
 

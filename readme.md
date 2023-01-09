@@ -22,8 +22,16 @@
 
 - Tree, BFS, BuildTree, Binary tree
 
+6. [averageOfLevelsInBinaryTree.js](https://leetcode.com/problems/average-of-levels-in-binary-tree)
+
+- Tree, BFS, BuildTree, Binary tree
+
 ### medium
 
-1. [binaryTreeLevelOrder.js](https://leetcode.com/problems/binary-tree-level-order-traversal)
+1. [binaryTreeLevelOrderTraversal.js](https://leetcode.com/problems/binary-tree-level-order-traversal)
+
+- Tree, BFS, BuildTree, Binary tree
+
+2. [binaryTreeLevelOrderTraversal2.js](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
 
 - Tree, BFS, BuildTree, Binary tree

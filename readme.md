@@ -26,6 +26,18 @@
 
 - Tree, BFS, BuildTree, Binary tree
 
+6. [binaryTreePreOrderTraversal.js](https://leetcode.com/problems/binary-tree-preorder-traversal)
+
+- Tree, DFS, Binary tree, pre-order
+
+7. [binaryTreeInOrderTraversal.js](https://leetcode.com/problems/binary-tree-inorder-traversal)
+
+- Tree, DFS, Binary tree, in-order
+
+8. [binaryTreePostOrderTraversal.js](https://leetcode.com/problems/binary-tree-postorder-traversal)
+
+- Tree, DFS, Binary tree, post-order
+
 ### medium
 
 1. [binaryTreeLevelOrderTraversal.js](https://leetcode.com/problems/binary-tree-level-order-traversal)
